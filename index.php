@@ -39,7 +39,7 @@
 	<body>
 		<div class="container">
 			<div>
-				<h3>Health Ring<div class="fixed-action-btn">
+				<h3>Health Afric<div class="fixed-action-btn">
   <a class="btn-floating btn-large red">
     <i class="large material-icons">menu</i>
   </a>
