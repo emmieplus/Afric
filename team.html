@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script>
+			/*document.addEventListener('DOMContentLoaded', function() {
+				var elems = document.querySelectorAll('.fixed-action-btn');
+				var instances = M.FloatingActionButton.init(elems, options);
+			});*/
+			document.addEventListener('DOMContentLoaded', function() {
+				var elems = document.querySelectorAll('.fixed-action-btn');
+				var instances = M.FloatingActionButton.init(elems, {
+					direction: 'top'
+				});
+			});
+		</script>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="asset/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="asset/css/materialize.min.css">
+		<link rel="stylesheet" href="asset/css/ghpages-materialize.css">
+		<link rel="stylesheet" href="asset/css/prism.css">
+		<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+		<!-- jQuery library -->
+		<script src="asset/jquery/jquery.min.js"></script>
+		
+		<!-- Latest compiled JavaScript -->
+		<script src="asset/js/materialize.min.js"></script>
+		<script src="asset/bootstrap/js/bootstrap.min.js"></script>
+		
+		<!-- Custom Javascript Library -->
+		<script src="library/js/instant.js"></script>
+		
+		<!-- Other Header -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<div class="container">
+			<div>
+				<h3>Health Ring<div class="fixed-action-btn">
+  <a class="btn-floating btn-large red">
+    <i class="large material-icons">menu</i>
+  </a>
+  <ul>
+    <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+    <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+    <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+    <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+  </ul>
+</div>
+ </h3>
+				<p>The Universe health Community.</p>
+			</div>
+		</div>
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Menu</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="mission-and-vision.html">Mission and Vision</a></li>
+						<li class="active"><a href="team.html">Teams</a></li>
+						<li><a href="partners.html">Partners</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="register.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+						<li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Sign In</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="progress">
+			<div class="indeterminate"></div>
+		</div>
+		<div align="center" class="container">
+				<h3>Unified Health Board</h3>
+				<p>We create a single connection of individual patients, health personnel and approved centres.</p>
+				<div class="form-group">
+					<form method="post" action="search.php">
+						  <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">search</i>
+          <input id="icon_prefix" type="text" class="validate" name="search_query">
+          <label for="icon_prefix">Search Centers</label>
+        </div>
+      </div>
+    </form>
+  </div>
+        
+					</form>
+				</div>	
+			<!--/div-->
+			<!--div class="divider" id="search_result">
+			</div-->
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col s12 m12">
+					<h3 class="header blue-text">Team</h3>
+					<div class="">
+						<ul>
+							<li></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<!-- Page Layout here -->
+   <div class="row">
+    <div class="col s12 m7">
+      <div class="card">
+        <div class="card-image">
+          <img src="images/sample-1.jpg">
+          <span class="card-title">Card Title</span>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
+  </div>
+		</div>
+		
+		<footer class="page-footer light-blue">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">UHR</h5>
+                <p class="white-text te-4">This is one way window to the world of Telemedicine in NIgeria. We are dedicated connecting patients, Hospitals, clinics, Medical Products, Pharmacies and Investors together in one System. We improve Medical Professionalism and Practice, and make your Data Security our Priority</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Insight</h5>
+                <ul>
+                  <li><a class="white-text text-lighten-3" href="index.html">Home</a></li>
+                  <li class="active"><a class="white-text text-lighten-3" href="#">Mission and Vision</a></li>
+                  <li><a class="white-text text-lighten-3" href="#!">Teams</a></li>
+                  <li><a class="white-text text-lighten-3" href="#!">Sponsors</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2019 Copyright UHR
+            <a class="grey-text text-lighten-4 right" href="#!">Uhr.org</a>
+            </div>
+          </div>
+        </footer>
+	</body>
+</html>
