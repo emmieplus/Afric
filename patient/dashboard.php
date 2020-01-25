@@ -474,63 +474,9 @@ Logout
                    </div>
               <!-- /.card-header -->
               <div class="card-body">
-                <div class="row">
-                  <div class="col-md-8">
-                    <p class="text-center">
-                      <strong>Sales: 1 Jan, 2019 - 30 Jul, 2019</strong>
-                    </p>
-
-                    <div class="chart">
-                      <!-- Sales Chart Canvas -->
-                      <canvas id="salesChart" height="392" style="height: 196px; width: 304px;" width="608"></canvas>
-                    </div>
-                    <!-- /.chart-responsive -->
-                  </div>
-                  <!-- /.col -->
-                  <div class="col-md-4">
-                    <p class="text-center">
-                      <strong>Activities Completion</strong>
-                    </p>
-
-                    <div class="progress-group">
-                      Total Reach
-                      <span class="float-right"><b>160</b>/200</span>
-                      <div class="progress progress-sm">
-                        <div class="progress-bar bg-primary" style="width: 80%"></div>
-                      </div>
-                    </div>
-                    <!-- /.progress-group -->
-
-                    <div class="progress-group">
-                      Completed Test
-                      <span class="float-right"><b>310</b>/400</span>
-                      <div class="progress progress-sm">
-                        <div class="progress-bar bg-danger" style="width: 75%"></div>
-                      </div>
-                    </div>
-
-                    <!-- /.progress-group -->
-                    <div class="progress-group">
-                      <span class="progress-text">Consultation Handled</span>
-                      <span class="float-right"><b>480</b>/800</span>
-                      <div class="progress progress-sm">
-                        <div class="progress-bar bg-success" style="width: 60%"></div>
-                      </div>
-                    </div>
-
-                    <!-- /.progress-group -->
-                    <div class="progress-group">
-                      Sent Queries
-                      <span class="float-right"><b>250</b>/500</span>
-                      <div class="progress progress-sm">
-                        <div class="progress-bar bg-warning" style="width: 50%"></div>
-                      </div>
-                    </div>
-                    <!-- /.progress-group -->
-                  </div>
-                  <!-- /.col -->
-                </div>
-                <!-- /.row -->
+                <div id="chart-container">
+      <canvas id="mycanvas"></canvas>
+    </div>
               </div>
               <!-- ./card-body -->
               <div class="card-footer">
@@ -655,7 +601,11 @@ Logout
   </footer>
 </div>
 <!-- ./wrapper -->
-
+<!-- Iris chart js -->
+<script type="text/javascript" src="../dist/chartjs/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../dist/chartjs/Chart.min.js"></script>
+    <script type="text/javascript" src="../dist/chartjs/app.js"></script>
+    <!-- ./Iris chart js stop -->
 <!-- REQUIRED SCRIPTS -->
 <!-- jQuery -->
 <script src="../plugins/jquery/jquery.min.js"></script>
